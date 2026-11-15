@@ -71,10 +71,12 @@ Google Sheets phù hợp sửa chữ, lịch tập, thông tin liên hệ. Sideb
 
 ## Thư viện ảnh
 
-Giao diện dùng nền ngà, vàng champagne #d7c49a và xanh trầm. Logo giữ nguyên màu gốc. Các ô gallery1Image đến gallery6Image chứa đường dẫn ảnh; galleryNCaption là chú thích và galleryNCategory là nhóm (Tập luyện/Không gian/Cộng đồng). Để trống ảnh để ẩn ô đó. Chỉnh được trong /quan-tri hoặc sidebar Google Sheets sau khi kết nối. Khi đã thay toàn bộ ảnh minh họa, đổi galleryIllustrative thành false để bỏ nhãn minh họa. Không tắt nhãn trước khi đã thay ảnh thật. Thư viện hỗ trợ lọc, bấm xem lớn, phím trái/phải, Escape để đóng và điều hướng bàn phím trong hộp thoại.
+Giao diện dùng nền ngà, vàng champagne gold #e6c76c và xanh trầm. Logo giữ nguyên màu gốc. Các ô gallery1Image đến gallery6Image chứa đường dẫn ảnh; galleryNCaption là chú thích và galleryNCategory là nhóm (Tập luyện/Không gian/Cộng đồng). Để trống ảnh để ẩn ô đó. Chỉnh được trong /quan-tri hoặc sidebar Google Sheets sau khi kết nối. Khi đã thay toàn bộ ảnh minh họa, đổi galleryIllustrative thành false để bỏ nhãn minh họa. Không tắt nhãn trước khi đã thay ảnh thật. Thư viện hỗ trợ lọc, bấm xem lớn, phím trái/phải, Escape để đóng và điều hướng bàn phím trong hộp thoại.
 
 ## Hero 3 slide
 
 heroImage là ảnh slide 1; heroSlide2Image/heroSlide3Image là ảnh slide 2/3. heroSlide1Caption, heroSlide2Caption, heroSlide3Caption là thông điệp trên ảnh, có thể xuống dòng. Đổi được trong bảng nội dung hoặc trình soạn nháp. Slide tự chuyển 5 giây, chuyển mờ 1,1 giây; tạm dừng khi trỏ chuột hoặc focus bàn phím vào hero. Có chấm chọn, nút trước/sau và dừng/chạy. Nếu thiết bị yêu cầu giảm chuyển động, tự động chuyển sẽ tắt mặc định; người xem có thể chủ động bật.
 
 Cỡ nội dung chính: 15px desktop, 14px mobile; mô tả chương trình 14px; câu hỏi thường gặp 14px desktop/13px mobile. Đã kiểm tra tránh tràn ngang trên các khung 390, 768, 1024 và 1440px.
+
+Nút Lên đầu trang xuất hiện sau khi cuộn 480px, nằm trên nút Zalo, hỗ trợ bàn phím và tắt cuộn mượt khi thiết bị yêu cầu giảm chuyển động.
