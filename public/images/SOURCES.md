@@ -1,15 +1,16 @@
-# Placeholder photography — replace with verified Fit Club assets
+# Fit Club 222 assets
 
-Downloaded from Unsplash image CDN. These are illustrative, not photographs of Fit Club 222. Check original license and suitability before publishing commercial advertisements.
+Logo: original public profile image from https://www.facebook.com/profile.php?id=61582343026619 matching the owner-provided reference, unchanged. Used as fitclub-logo.jpg and app/icon.jpg.
 
-- hero.jpg / program-1.jpg: https://images.unsplash.com/photo-1518611012118-696072aa579a
-- about.jpg: CDN photo-1517836357463-d25dfeac3438
-- space.jpg / program-2.jpg: CDN photo-1534438327276-14e5300c3a48
-- community.jpg: CDN photo-1511632765486-a01980e01a18
-- program-3.jpg: CDN photo-1544367567-0f2fcb009e0b
+All remaining photos were supplied by the owner through Google Drive for inclusion on this website. Stored with the site so display does not depend on Drive sharing or temporary download links.
 
-CDN base: https://images.unsplash.com/ . No endorsement or membership is implied.
+- ecosystem.jpg: 1trwDz17Ym3itfQ2NdC2l2470VVSMThE_
+- members-standing.jpg: 1Y-eGn3x5tpLcXB0ZsWvWsZYk2kBxL7M-
+- members-together.jpg: 1M8AKJhvbI-89BsTziveMqE9-PnI3c2uE
+- entrance.jpg: 1Fr97MJmJB8dGLgXo_bvWk4Gbgl_xU01I
+- community-event.jpg: 1R1j56ZwrWs3YhgcaYPQPd9ztZ1HABlqp
+- daily-training.jpg: 1stkLD4mEe2hp91bA2M7dE32-yTMCXlIh
 
-## Brand assets
+The ecosystem poster is labeled as an introduction, separate from daily activities. Its statistics are not repeated as Fit Club 222 branch counts or independently verified claims.
 
-fitclub-logo.jpg and app/icon.jpg: original Fit Club logo downloaded from the public profile image of https://www.facebook.com/profile.php?id=61582343026619 , matching the reference supplied by the owner in chat. Preserved without AI regeneration.
+No stock photos remain in the site. Original files are copied without AI alteration.

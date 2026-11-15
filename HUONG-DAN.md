@@ -55,8 +55,8 @@ Google Sheets phù hợp sửa chữ, lịch tập, thông tin liên hệ. Sideb
 
 - Bỏ hoàn toàn cam kết hoàn phí.
 - Chưa có giá, lịch lớp, tên/chứng chỉ huấn luyện viên, đánh giá xác thực. Không tạo giá, thông tin PT hoặc lời chứng thực giả. Các mục này hiện được diễn đạt bằng hướng dẫn liên hệ và hành trình tham gia.
-- Ảnh hiện tại là ảnh minh họa tải từ Unsplash, chưa phải ảnh Fit Club. Ghi chú bản nháp trên chân trang thể hiện rõ. Kiểm tra giấy phép Unsplash và quyền sử dụng người mẫu trước khi dùng quảng cáo; nên thay ảnh thật do chủ cơ sở cung cấp trước khi public chính thức.
-- Ảnh người dùng đã gửi trong cuộc trò chuyện không có file cục bộ truy cập được trong workspace ở thời điểm dựng. Logo thật đã lấy từ trang Facebook chính thức và nhúng ở đầu/cuối trang cùng favicon; các ảnh hoạt động vẫn đang chờ file tải được. Muốn thay ảnh chỉ cần đặt file vào public/images hoặc dùng URL ảnh công khai trong Sheet. Không sửa ảnh để giả mạo cơ sở.
+- Ảnh hiện tại là bộ 6 ảnh gốc chủ phòng tập đã cung cấp qua Google Drive. Đã thay toàn bộ ảnh Unsplash và bỏ nhãn minh họa. Logo gốc giữ nguyên.
+- Ảnh người dùng đã cung cấp qua Drive đã được tải và nhúng vào website. Logo thật đã lấy từ trang Facebook chính thức và nhúng ở đầu/cuối trang cùng favicon. Muốn thay ảnh chỉ cần đặt file vào public/images hoặc dùng URL ảnh công khai trong Sheet. Không sửa ảnh để giả mạo cơ sở.
 - Ảnh hero gợi ý 1600×2000; ảnh chương trình 1000×1200; ảnh không gian 1800×1200. Dùng JPG/WebP, ưu tiên dưới 500 KB, giữ chủ thể ở giữa khi cắt trên mobile.
 - Không có form thu dữ liệu khách; CTA gọi điện, Zalo và Facebook hoạt động bằng liên kết trực tiếp. Không có thông báo gửi thành công giả, không có phí trải nghiệm mặc định, không tự nhận là miễn phí.
 - Sau khi xác minh toàn bộ, sửa/xóa trường notice trong Sheet.
@@ -71,4 +71,10 @@ Google Sheets phù hợp sửa chữ, lịch tập, thông tin liên hệ. Sideb
 
 ## Thư viện ảnh
 
-Giao diện dùng vàng #fff20b làm màu chủ đạo, xanh lá/xanh dương theo logo. Các ô gallery1Image đến gallery6Image chứa đường dẫn ảnh; galleryNCaption là chú thích và galleryNCategory là nhóm (Tập luyện/Không gian/Cộng đồng). Để trống ảnh để ẩn ô đó. Chỉnh được trong /quan-tri hoặc sidebar Google Sheets sau khi kết nối. Khi đã thay toàn bộ ảnh minh họa, đổi galleryIllustrative thành false để bỏ nhãn minh họa. Không tắt nhãn trước khi đã thay ảnh thật. Thư viện hỗ trợ lọc, bấm xem lớn, phím trái/phải, Escape để đóng và điều hướng bàn phím trong hộp thoại.
+Giao diện dùng nền ngà, vàng champagne #d7c49a và xanh trầm. Logo giữ nguyên màu gốc. Các ô gallery1Image đến gallery6Image chứa đường dẫn ảnh; galleryNCaption là chú thích và galleryNCategory là nhóm (Tập luyện/Không gian/Cộng đồng). Để trống ảnh để ẩn ô đó. Chỉnh được trong /quan-tri hoặc sidebar Google Sheets sau khi kết nối. Khi đã thay toàn bộ ảnh minh họa, đổi galleryIllustrative thành false để bỏ nhãn minh họa. Không tắt nhãn trước khi đã thay ảnh thật. Thư viện hỗ trợ lọc, bấm xem lớn, phím trái/phải, Escape để đóng và điều hướng bàn phím trong hộp thoại.
+
+## Hero 3 slide
+
+heroImage là ảnh slide 1; heroSlide2Image/heroSlide3Image là ảnh slide 2/3. heroSlide1Caption, heroSlide2Caption, heroSlide3Caption là thông điệp trên ảnh, có thể xuống dòng. Đổi được trong bảng nội dung hoặc trình soạn nháp. Slide tự chuyển 5 giây, chuyển mờ 1,1 giây; tạm dừng khi trỏ chuột hoặc focus bàn phím vào hero. Có chấm chọn, nút trước/sau và dừng/chạy. Nếu thiết bị yêu cầu giảm chuyển động, tự động chuyển sẽ tắt mặc định; người xem có thể chủ động bật.
+
+Cỡ nội dung chính: 15px desktop, 14px mobile; mô tả chương trình 14px; câu hỏi thường gặp 14px desktop/13px mobile. Đã kiểm tra tránh tràn ngang trên các khung 390, 768, 1024 và 1440px.

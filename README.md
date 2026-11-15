@@ -4,12 +4,12 @@ Landing page cho phòng tập nữ tại Tây Nam Linh Đàm. Next.js + TypeScri
 
 ![Giao diện desktop](docs/desktop.jpg)
 
-- Hero lớn, hiệu ứng xuất hiện khi cuộn, màu vàng chủ đạo, xanh lá và xanh dương theo logo gốc, responsive.
+- Hero 3 slide ảnh thật tự chuyển 5 giây, điều khiển dừng/chuyển ảnh, hiệu ứng xuất hiện khi cuộn, nền ngà, vàng champagne dịu và xanh trầm; logo gốc giữ nguyên, responsive.
 - Chương trình tập, không gian, cộng đồng, thư viện ảnh có bộ lọc và xem lớn, lộ trình tham gia, FAQ, liên hệ.
 - Zalo, điện thoại, Facebook, bản đồ bằng liên kết thật.
 - `/quan-tri`: soạn nháp, xem trước, tải CSV. Không có quyền ghi công khai.
 - Google Sheets sidebar: sửa nội dung, chọn ảnh từ máy → Drive, lưu nháp, xuất bản. Cần cài một lần và xác minh bằng tài khoản Google thực tế.
-- Logo thật lấy từ Facebook của Fit Club 222. Ảnh hoạt động trong chat chưa có file tải được; thư viện đang dùng ảnh minh họa có ghi chú rõ, cần thay bằng ảnh gốc.
+- Logo thật lấy từ Facebook của Fit Club 222. Đã dùng đủ 6 ảnh gốc do chủ phòng tập cung cấp qua Google Drive.
 
 ## Chạy thử
 
