@@ -9,3 +9,7 @@ Downloaded from Unsplash image CDN. These are illustrative, not photographs of F
 - program-3.jpg: CDN photo-1544367567-0f2fcb009e0b
 
 CDN base: https://images.unsplash.com/ . No endorsement or membership is implied.
+
+## Brand assets
+
+fitclub-logo.jpg and app/icon.jpg: original Fit Club logo downloaded from the public profile image of https://www.facebook.com/profile.php?id=61582343026619 , matching the reference supplied by the owner in chat. Preserved without AI regeneration.

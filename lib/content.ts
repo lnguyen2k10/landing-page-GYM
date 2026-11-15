@@ -1,5 +1,25 @@
 export const defaults = {
   brand: 'Fit Club 222',
+  logoImage: '/images/fitclub-logo.jpg',
+  galleryIllustrative: 'true',
+  gallery1Image: '/images/program-1.jpg',
+  gallery1Caption: 'Năng lượng trong từng chuyển động',
+  gallery1Category: 'Tập luyện',
+  gallery2Image: '/images/program-2.jpg',
+  gallery2Caption: 'Cảm hứng cho một buổi tập mới',
+  gallery2Category: 'Không gian',
+  gallery3Image: '/images/program-3.jpg',
+  gallery3Caption: 'Dành thời gian chăm sóc chính mình',
+  gallery3Category: 'Tập luyện',
+  gallery4Image: '/images/community.jpg',
+  gallery4Caption: 'Kết nối qua những niềm vui nhỏ',
+  gallery4Category: 'Cộng đồng',
+  gallery5Image: '',
+  gallery5Caption: 'Khoảnh khắc cùng hội viên',
+  gallery5Category: 'Cộng đồng',
+  gallery6Image: '',
+  gallery6Caption: 'Một ngày tại Fit Club 222',
+  gallery6Category: 'Không gian',
   phone: '038 648 5470',
   zalo: '0386485470',
   address: 'Tòa D2CT2, Tây Nam Linh Đàm, Hà Nội',
@@ -28,6 +48,8 @@ export const defaults = {
 };
 export type Content = typeof defaults;
 export const labels: Record<keyof Content, string> = {
+ logoImage:'Logo thương hiệu',galleryIllustrative:'Thư viện đang dùng ảnh minh họa (true/false)',
+ gallery1Image:'Ảnh thư viện 1',gallery1Caption:'Chú thích ảnh 1',gallery1Category:'Nhóm ảnh 1',gallery2Image:'Ảnh thư viện 2',gallery2Caption:'Chú thích ảnh 2',gallery2Category:'Nhóm ảnh 2',gallery3Image:'Ảnh thư viện 3',gallery3Caption:'Chú thích ảnh 3',gallery3Category:'Nhóm ảnh 3',gallery4Image:'Ảnh thư viện 4',gallery4Caption:'Chú thích ảnh 4',gallery4Category:'Nhóm ảnh 4',gallery5Image:'Ảnh thư viện 5',gallery5Caption:'Chú thích ảnh 5',gallery5Category:'Nhóm ảnh 5',gallery6Image:'Ảnh thư viện 6',gallery6Caption:'Chú thích ảnh 6',gallery6Category:'Nhóm ảnh 6',
  service1Image:'Ảnh chương trình 1',service2Image:'Ảnh chương trình 2',service3Image:'Ảnh chương trình 3',brand:'Tên phòng tập', phone:'Số điện thoại', zalo:'Số Zalo (chỉ nhập số)', address:'Địa chỉ', facebook:'Đường dẫn Facebook',heroEyebrow:'Dòng chữ nhỏ đầu trang',heroTitle:'Tiêu đề đầu trang',heroDescription:'Giới thiệu đầu trang',heroImage:'Ảnh đầu trang',aboutImage:'Ảnh giới thiệu',spaceImage:'Ảnh không gian',communityImage:'Ảnh cộng đồng',aboutTitle:'Tiêu đề giới thiệu',aboutDescription:'Nội dung giới thiệu',service1Title:'Tên chương trình 1',service1Text:'Mô tả chương trình 1',service2Title:'Tên chương trình 2',service2Text:'Mô tả chương trình 2',service3Title:'Tên chương trình 3',service3Text:'Mô tả chương trình 3',hours:'Giờ hoạt động',trialText:'Lời mời tư vấn',notice:'Ghi chú nội dung mẫu (xóa khi đã xác nhận)',
 };
 export function safeContent(raw: unknown): Content {
@@ -36,7 +58,7 @@ export function safeContent(raw: unknown): Content {
  for (const key of Object.keys(defaults) as (keyof Content)[]) {
   const value = (raw as Record<string, unknown>)[key];
   if (typeof value !== 'string' || value.length > 6000) continue;
-  if (key.endsWith('Image') && !(/^https:\/\//.test(value) || /^\/images\/[a-zA-Z0-9._-]+$/.test(value))) continue;
+  if (key.endsWith('Image') && value !== '' && !(/^https:\/\//.test(value) || /^\/images\/[a-zA-Z0-9._-]+$/.test(value))) continue;
   if (key === 'facebook' && !/^https:\/\/(www\.)?facebook\.com\//.test(value)) continue;
   if (key === 'zalo' && !/^\d{9,15}$/.test(value)) continue;
   result[key] = value;
